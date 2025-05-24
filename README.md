@@ -1,11 +1,10 @@
-# Garry's Mod addon compressor
+# Garry's Mod 资源压缩工具
  
-## Current features:
+## 当前功能:
 
-- Image compression (VTF, JPG, JPEG, PNG)
-- Compressing audio files (WAV, MP3|Demo, OGG|Demo)
-- LUA code minimization
+- 图像压缩 (支持 VTF, JPG, JPEG, PNG 格式)
+- 音频文件压缩 (支持 WAV, MP3|DEMO, OGG|DEMO)
+- LUA 代码最小化
 
-# BE SURE TO INSTALL THIS PACKAGE FOR THE APP TO WORK CORRECTLY:
-
-https://dotnet.microsoft.com/en-us/download/dotnet/6.0/runtime
+# 使用前请务必安装以下运行环境:
+https://dotnet.microsoft.com/zh-cn/download/dotnet/6.0/runtime
