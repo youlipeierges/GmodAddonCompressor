@@ -7,7 +7,14 @@
 - 音频文件压缩 (支持 WAV, MP3|DEMO, OGG|DEMO)
 - LUA 代码最小化
 
-# 使用前请务必安装以下运行环境:
+# 下载打包环境:
 https://dotnet.microsoft.com/zh-cn/download/dotnet/6.0/runtime
-# 如果不想打包,请跳转链接至:
-https://github.com/youlipeierges/GmodAddonCompressor_chinese/releases
+# 开始打包
+首先,下载此目录的文件,然后任意解压到一个地方  
+点击build.bat即可开始打包  
+打开目录的这个地方:  
+GmodAddonCompressor\bin\Release\net6.0-windows\  
+他会显示:  
+win-x64  
+win-x86  
+打开任意一个里面有个publish文件夹打开就有了
