@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:GmodAddonCompressor"
         mc:Ignorable="d" ResizeMode="NoResize"
         Background="#424242"
-        Title="Garry's Mod - Resources Compress" Height="370" Width="860">
+        Title="Garry's Mod - 资源压缩工具" Height="370" Width="860">
     <Window.Resources>
         <BooleanToVisibilityConverter x:Key="VisibleIfTrueConverter" />
         <Style x:Key="DarkButton" TargetType="Button">
@@ -60,7 +60,7 @@
                         <Button x:Name="Button_SelectDirectory"
                             Style="{StaticResource DarkButton}"
                             IsEnabled="{Binding UnlockedUI}"
-                            Content="Select"/>
+                            Content="选择"/>
                     </Grid>
                 </Grid>
 
@@ -68,7 +68,7 @@
                     <Button x:Name="Button_Compress"
                         Style="{StaticResource DarkButton}"
                         IsEnabled="{Binding UnlockedUI}"
-                        Content="Compress" 
+                        Content="压缩" 
                         Height="24"/>
                 </Grid>
 
@@ -119,7 +119,7 @@
                     <CheckBox
                         Style="{StaticResource DarkCheckBox}"
                         Margin="0, 5, 0, 5"
-                        Content="Use &quot;FFMpeg&quot; for compress"
+                        Content="使用 &quot;FFMpeg&quot; 压缩"
                         HorizontalAlignment="Left"
                         IsChecked="{Binding UseFFMpegForCompress}"/>
                 </StackPanel>
@@ -127,7 +127,7 @@
                 <Label
                     Style="{StaticResource DarkLabel}"
                     Margin="0, 5, 0, 5"
-                    Content="Rate (Hz)" 
+                    Content="采样率 (赫兹)" 
                     HorizontalAlignment="Left"
                     Width="92"/>
 
@@ -170,7 +170,7 @@
                         Style="{StaticResource DarkLabel}"
                         Margin="0, 5, 0, 5"
                         HorizontalAlignment="Left"
-                        Content="Reducing resolution (2x, 4x, etc.)" 
+                        Content="降低分辨率（2倍、4倍等）" 
                         Width="188"/>
 
                     <ComboBox
@@ -186,7 +186,7 @@
                         <TextBlock 
                             Style="{StaticResource DarkTextBlock}"
                             Margin="5, 0, 15, 0"
-                            Text="Width limit:" 
+                            Text="宽度限制:" 
                             VerticalAlignment="Center" />
 
                         <ComboBox
@@ -201,7 +201,7 @@
                         <TextBlock 
                             Style="{StaticResource DarkTextBlock}"
                             Margin="5, 0, 15, 0"
-                            Text="Height limit:" 
+                            Text="高度限制:" 
                             VerticalAlignment="Center" />
 
                         <ComboBox
@@ -218,7 +218,7 @@
                         <TextBlock 
                             Style="{StaticResource DarkTextBlock}"
                             Margin="5, 0, 15, 0"
-                            Text="Skip width:" 
+                            Text="跳过宽度:" 
                             VerticalAlignment="Center" />
 
                         <TextBox
@@ -233,7 +233,7 @@
                         <TextBlock 
                             Style="{StaticResource DarkTextBlock}"
                             Margin="5, 0, 15, 0"
-                            Text="Skip height:" 
+                            Text="跳过高度:" 
                             VerticalAlignment="Center" />
 
                         <TextBox
@@ -249,19 +249,19 @@
                     Margin="5"
                     IsChecked="{Binding ReduceExactlyToLimits}"
                     Style="{StaticResource DarkCheckBox}"
-                    Content="Reduce exactly to limits"/>
+                    Content="精确压缩到极限"/>
 
                 <CheckBox 
                     Margin="5"
                     IsChecked="{Binding KeepImageAspectRatio}"
                     Style="{StaticResource DarkCheckBox}"
-                    Content="Maintain image aspect ratio"/>
+                    Content="保持图像宽高比"/>
 
                 <CheckBox
                     Margin="5"
                     IsChecked="{Binding ImageMagickVTFCompress}"
                     Style="{StaticResource DarkCheckBox}"
-                    Content="ImageMagick VTF compress (Demo)"/>
+                    Content="ImageMagick VTF 压缩 (DEMO)"/>
             </StackPanel>
         </Grid>
 
@@ -277,7 +277,7 @@
                 <CheckBox
                     Style="{StaticResource DarkCheckBox}"
                     Margin="20, 5, 0, 5"
-                    Content="Change original code"
+                    Content="更换源代码"
                     HorizontalAlignment="Left"
                     IsChecked="{Binding ChangeOriginalCodeToMinimalistic}"/>
             </StackPanel>
@@ -287,7 +287,7 @@
             <CheckBox
                 Style="{StaticResource DarkCheckBox}"
                 Margin="5, 5, 5, 5"
-                Content="Debug Console"
+                Content="调试控制台"
                 Checked="CheckBox_EnableDebugConsole"
                 Unchecked="CheckBox_DisableDebugConsole"/>
         </Grid>
@@ -303,7 +303,7 @@
 
                 <TextBlock 
                     Style="{StaticResource DarkTextBlock}"
-                    Text="Author: Shark_vil" 
+                    Text="作者: Shark_vil 翻译作者: 夜丽" 
                     VerticalAlignment="Center"
                     HorizontalAlignment="Center"/>
             </StackPanel>

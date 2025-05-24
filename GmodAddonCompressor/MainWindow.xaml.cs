@@ -10,7 +10,7 @@ namespace GmodAddonCompressor
     public partial class MainWindow : Window
     {
         private MainWindowContext _context = new MainWindowContext();
-        private const string _version = "v2.0.4";
+        private const string _version = "v2.0.4:简体汉化";
 
         public MainWindow()
         {
@@ -91,7 +91,7 @@ namespace GmodAddonCompressor
             _context.ProgressBarMinValue = 0;
             _context.ProgressBarMaxValue = filesCount;
             _context.ProgressBarValue = fileIndex;
-            _context.ProgressBarText = $"{(int)percent} % | Files: {fileIndex} / {filesCount}";
+            _context.ProgressBarText = $"{(int)percent} % | 文件: {fileIndex} / {filesCount}";
         }
 
         private void CompressCompleted()
